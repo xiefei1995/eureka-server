@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: dev
+app:
+  id: xiefei-apollo
+apollo:
+  autoUpdateInjectedSpringProperties: true
+  bootstrap:
+    enabled: true
+    namespaces: xiefei-eureka-local
